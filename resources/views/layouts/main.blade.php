@@ -7,7 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    @include('partials.card')
+    
+    @include('partials.header')
+
+    <main>
+        
+        @yield('content')
+
+    </main>
+
+    @include('partials.footer')
+    
+    
 </body>
 </html>
